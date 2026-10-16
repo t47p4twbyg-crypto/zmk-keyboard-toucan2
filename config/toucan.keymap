@@ -4,24 +4,11 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
-/* ==========================================================================
-   Toucan2 トラックパッドの全レイヤー共通設定（オーバーライド）
-   ========================================================================== */
-&trackpad_listener {
-    status = "okay";
-    compatible = "zmk,input-listener";
-    
-    // ZMK Studioで追加される1〜31の全レイヤーでもトラックパッドを動かすための定義
-    all_layers {
-        layers = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31>;
-        input-processors = <&zip_xy_scaler 1 1>, <&zip_scroll_transform>;
-    };
-};
-
 / {
     keymap {
         compatible = "zmk,keymap";
 
+        // レイヤー0：メインのキーマップ
         base {
             display-name = "BASE";
             bindings = <
@@ -32,37 +19,48 @@
             >;
         };
 
-        // ZMK Studio用予約枠（31枚分）
-        layer1  { status = "reserved"; };
-        layer2  { status = "reserved"; };
-        layer3  { status = "reserved"; };
-        layer4  { status = "reserved"; };
-        layer5  { status = "reserved"; };
-        layer6  { status = "reserved"; };
-        layer7  { status = "reserved"; };
-        layer8  { status = "reserved"; };
-        layer9  { status = "reserved"; };
-        layer10 { status = "reserved"; };
-        layer11 { status = "reserved"; };
-        layer12 { status = "reserved"; };
-        layer13 { status = "reserved"; };
-        layer14 { status = "reserved"; };
-        layer15 { status = "reserved"; };
-        layer16 { status = "reserved"; };
-        layer17 { status = "reserved"; };
-        layer18 { status = "reserved"; };
-        layer19 { status = "reserved"; };
-        layer20 { status = "reserved"; };
-        layer21 { status = "reserved"; };
-        layer22 { status = "reserved"; };
-        layer23 { status = "reserved"; };
-        layer24 { status = "reserved"; };
-        layer25 { status = "reserved"; };
-        layer26 { status = "reserved"; };
-        layer27 { status = "reserved"; };
-        layer28 { status = "reserved"; };
-        layer29 { status = "reserved"; };
-        layer30 { status = "reserved"; };
-        layer31 { status = "reserved"; };
+        // レイヤー1：完全に空っぽ（&none）の部屋
+        empty_layer1 {
+            display-name = "L1";
+            bindings = <
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                                    &none &none &none   &none &none &none
+            >;
+        };
+
+        // レイヤー2：完全に空っぽ（&none）の部屋
+        empty_layer2 {
+            display-name = "L2";
+            bindings = <
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                                    &none &none &none   &none &none &none
+            >;
+        };
+
+        // レイヤー3：完全に空っぽ（&none）の部屋
+        empty_layer3 {
+            display-name = "L3";
+            bindings = <
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                                    &none &none &none   &none &none &none
+            >;
+        };
+
+        // レイヤー4：完全に空っぽ（&none）の部屋
+        empty_layer4 {
+            display-name = "L4";
+            bindings = <
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                &none &none &none &none &none &none   &none &none &none &none &none &none
+                                    &none &none &none   &none &none &none
+            >;
+        };
     };
 };
