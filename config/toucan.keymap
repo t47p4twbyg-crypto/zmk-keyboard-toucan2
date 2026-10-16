@@ -17,5 +17,39 @@
                                 &kp LGUI &trans &kp SPACE   &kp RET &trans &kp RALT
             >;
         };
+
+        // ZMKの上限である「最大32レイヤー」までいつでも自由に追加・編集できるように、
+        // 残り31枚分の空の予約部屋をあらかじめすべて敷き詰めてあります。
+        layer1  { status = "reserved"; };
+        layer2  { status = "reserved"; };
+        layer3  { status = "reserved"; };
+        layer4  { status = "reserved"; };
+        layer5  { status = "reserved"; };
+        layer6  { status = "reserved"; };
+        layer7  { status = "reserved"; };
+        layer8  { status = "reserved"; };
+        layer9  { status = "reserved"; };
+        layer10 { status = "reserved"; };
+        layer11 { status = "reserved"; };
+        layer12 { status = "reserved"; };
+        layer13 { status = "reserved"; };
+        layer14 { status = "reserved"; };
+        layer15 { status = "reserved"; };
+        layer16 { status = "reserved"; };
+        layer17 { status = "reserved"; };
+        layer18 { status = "reserved"; };
+        layer19 { status = "reserved"; };
+        layer20 { status = "reserved"; };
+        layer21 { status = "reserved"; };
+        layer22 { status = "reserved"; };
+        layer23 { status = "reserved"; };
+        layer24 { status = "reserved"; };
+        layer25 { status = "reserved"; };
+        layer26 { status = "reserved"; };
+        layer27 { status = "reserved"; };
+        layer28 { status = "reserved"; };
+        layer29 { status = "reserved"; };
+        layer30 { status = "reserved"; };
+        layer31 { status = "reserved"; };
     };
 };
