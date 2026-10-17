@@ -20,9 +20,9 @@
         // レイヤー0：メインのキーマップ
 
         base {
-            display-name = "BASE";
+            display-name = "MAC";
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &new_behavior NUMBER_1 A  &new_behavior NUMBER_2 S  &new_behavior NUMBER_3 D  &new_behavior NUMBER_4 F  &new_behavior N5 G  &new_behavior NUMBER_6 H  &new_behavior N7 J  &new_behavior N8 K  &new_behavior N9 L  &new_behavior MINUS N0  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &new_behavior ASTRK SLASH  &none  &kp LGUI  &kp LEFT_GUI  &kp SPACE  &kp RET  &trans  &kp RALT
+&none  &new_behavior LG(Q) Q  &new_behavior LG(W) W  &kp E  &new_behavior LG(R) R  &new_behavior LG(T) T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &new_behavior LG(A) A  &new_behavior NUMBER_2 S  &new_behavior NUMBER_3 D  &new_behavior LG(F) F  &kp G  &new_behavior LG(H) H  &new_behavior N7 J  &new_behavior N8 K  &new_behavior N9 L  &new_behavior MINUS N0  &none  &none  &new_behavior LG(Z) Z  &new_behavior LG(X) X  &new_behavior LG(C) C  &new_behavior LG(V) V  &kp B  &new_behavior LG(N) N  &kp M  &kp COMMA  &kp DOT  &new_behavior ASTRK SLASH  &none  &kp LGUI  &kp LEFT_GUI  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
