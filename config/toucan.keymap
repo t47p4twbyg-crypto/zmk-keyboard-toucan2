@@ -22,7 +22,7 @@
         base {
             display-name = "base";
             bindings = <
-&none  &new_behavior LC(Q) Q  &new_behavior LC(W) W  &kp E  &new_behavior LC(R) R  &new_behavior LG(T) T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &new_behavior LC(A) A  &new_behavior LC(S) S  &kp D  &new_behavior LG(F) F  &kp G  &new_behavior LG(H) H  &kp J  &kp K  &kp L  &new_behavior MINUS N0  &none  &none  &new_behavior LC(Z) Z  &new_behavior LC(X) X  &new_behavior LC(C) C  &new_behavior LC(V) V  &kp B  &new_behavior LG(N) N  &kp M  &kp COMMA  &kp DOT  &new_behavior ASTRK SLASH  &none  &kp LGUI  &kp LC(SPACE)  &kp SPACE  &kp RET  &trans  &kp RALT
+&none  &new_behavior LC(Q) Q  &new_behavior LC(W) W  &kp E  &new_behavior LC(R) R  &new_behavior LC(T) T  &kp Y  &kp U  &kp I  &kp O  &kp P  &none  &none  &new_behavior LC(A) A  &new_behavior LC(S) S  &kp D  &new_behavior LC(F) F  &kp G  &new_behavior LC(H) H  &kp J  &new_behavior LC(K) K  &kp L  &kp MINUS  &none  &none  &new_behavior LC(Z) Z  &new_behavior LC(X) X  &new_behavior LC(C) C  &new_behavior LC(V) V  &kp B  &new_behavior LC(N) N  &kp M  &kp COMMA  &kp DOT  &new_behavior ASTRK SLASH  &none  &kp LGUI  &kp LC(SPACE)  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
