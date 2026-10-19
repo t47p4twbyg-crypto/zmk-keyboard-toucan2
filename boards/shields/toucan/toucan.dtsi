@@ -145,9 +145,11 @@
         compatible = "zmk,input-listener";
         status = "disabled";
         device = <&trackpad_split>;
-layers = <0 1 2>;
-        input-processors = <&zip_xy_scaler 200 200>, <&zip_scroll_scaler 1 20>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
-        scroller {
+xy_scaler {
+            layers = <0 1 2>;
+            input-processors = <&zip_xy_scaler 200 200>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
+        };
+scroller {
             layers = <0 1 2>;
             input-processors = <
                 &zip_xy_to_scroll_mapper
