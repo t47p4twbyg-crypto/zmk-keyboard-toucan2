@@ -32,7 +32,7 @@
         empty_layer1 {
             display-name = "num";
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &new_behavior EXCL NUMBER_1  &new_behavior AT NUMBER_2  &new_behavior HASH NUMBER_3  &new_behavior DOLLAR NUMBER_4  &new_behavior PERCENT N5  &new_behavior CARET NUMBER_6  &new_behavior AMPS N7  &new_behavior ASTRK N8  &new_behavior LEFT_PARENTHESIS N9  &new_behavior RIGHT_PARENTHESIS N0  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 0  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &new_behavior EXCL NUMBER_1  &new_behavior AT NUMBER_2  &new_behavior HASH NUMBER_3  &new_behavior DOLLAR NUMBER_4  &new_behavior PERCENT N5  &new_behavior CARET NUMBER_6  &new_behavior AMPS N7  &new_behavior ASTRK N8  &new_behavior LEFT_PARENTHESIS N9  &new_behavior RIGHT_PARENTHESIS N0  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 0  &to 2  &none  &none  &none  &none
             >;
         };
 
@@ -41,7 +41,7 @@
         empty_layer2 {
             display-name = "game";
             bindings = <
-&none  &none  &kp W  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp A  &kp S  &kp D  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &mkp LCLK  &none  &none  &none  &none
+&none  &none  &kp W  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp A  &kp S  &kp D  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 0  &mkp LCLK  &none  &none  &none  &none
             >;
         };
 
