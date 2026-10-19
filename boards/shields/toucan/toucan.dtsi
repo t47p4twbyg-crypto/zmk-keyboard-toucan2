@@ -146,7 +146,7 @@
         status = "disabled";
         device = <&trackpad_split>;
 　　　　　　layers = <0 1 2>;
-        input-processors = <&zip_xy_scaler 100 100>, <&zip_scroll_scaler 1 20>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
+        input-processors = <&zip_xy_scaler 200 200>, <&zip_scroll_scaler 1 20>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
         scroller {
             layers = <0 1 2>;
             input-processors = <
