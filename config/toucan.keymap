@@ -29,9 +29,9 @@
         // レイヤー1：完全に空っぽ（&none）の部屋
 
         empty_layer1 {
-            display-name = "lay";
+            display-name = "num";
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &new_behavior EXCL NUMBER_1  &new_behavior AT NUMBER_2  &new_behavior HASH NUMBER_3  &new_behavior DOLLAR NUMBER_4  &new_behavior PERCENT N5  &new_behavior CARET NUMBER_6  &new_behavior AMPS N7  &new_behavior ASTRK N8  &new_behavior LEFT_PARENTHESIS N9  &new_behavior RIGHT_PARENTHESIS N0  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
