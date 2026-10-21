@@ -147,7 +147,7 @@
         device = <&trackpad_split>;
 xy_scaler {
             layers = <0 1 2>;
-            input-processors = <&zip_xy_scaler 300 100>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
+            input-processors = <&zip_xy_scaler 3 1>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
         };
 scroller {
             layers = <0 1 2>;
@@ -156,6 +156,18 @@ scroller {
                 &zip_scroll_scaler 1 20
                 &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
             >;
+        };
+    };
+};
+
+/ {
+    behaviors {
+        mouse_back: mouse_back {
+            compatible = "zmk,behavior-hold-tap";
+            #behavior-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mkp>, <&kp>;
         };
     };
 };
