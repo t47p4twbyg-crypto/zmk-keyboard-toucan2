@@ -147,7 +147,7 @@
         device = <&trackpad_split>;
 xy_scaler {
             layers = <0 1 2>;
-            input-processors = <&zip_xy_scaler 100 100>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
+            input-processors = <&zip_xy_scaler 200 100>, <&zip_zoom_mapper>, <&is_touching_processor>, <&swipe_button_mapper>;
         };
 scroller {
             layers = <0 1 2>;
