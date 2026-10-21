@@ -7,6 +7,7 @@
 
 //#define TOUCAN_WIN_MODE
 
+
 / {
     chosen {
         zmk,kscan = &kscan0;
