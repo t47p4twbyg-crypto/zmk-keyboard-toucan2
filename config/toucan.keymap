@@ -1,7 +1,5 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 / {
     behaviors {
@@ -20,47 +18,38 @@
         compatible = "zmk,keymap";
 
         // レイヤー0：メインのキーマップ
-
-        base {
-            display-name = "base";
-            bindings = <
-&none  &new_behavior LC(Q) Q  &new_behavior LC(W) W  &new_behavior ESCAPE E  &new_behavior LC(R) R  &new_behavior LC(T) T  &new_behavior LEFT Y  &new_behavior UP_ARROW U  &new_behavior RIGHT I  &new_behavior PRINTSCREEN O  &new_behavior LG(P) P  &none  &none  &new_behavior LC(A) A  &new_behavior LC(S) S  &kp D  &new_behavior LC(F) F  &new_behavior LC(PAGE_UP) G  &new_behavior LC(H) H  &new_behavior DOWN_ARROW J  &new_behavior LC(K) K  &new_behavior LG(L) L  &new_behavior EQUAL MINUS  &none  &none  &new_behavior LC(Z) Z  &new_behavior LC(X) X  &new_behavior LC(C) C  &new_behavior LC(V) V  &new_behavior LC(PAGE_DOWN) B  &new_behavior LC(N) N  &new_behavior LS(F11) M  &new_behavior LEFT_BRACKET COMMA  &new_behavior RIGHT_BRACKET PERIOD  &new_behavior QUESTION SLASH  &none  &to 1  &new_behavior LC(SPACE) LEFT_GUI  &kp LG(TAB)  &new_behavior DELETE BACKSPACE  &new_behavior ENTER SPACE  &new_behavior CAPS LG(SPACE)
-            >;
-        };
-
         // レイヤー1：完全に空っぽ（&none）の部屋
-
-        empty_layer1 {
-            display-name = "num";
-            bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none  &none  &none  &none  &none  &none  &none  &none  &new_behavior EXCL NUMBER_1  &new_behavior AT NUMBER_2  &new_behavior HASH NUMBER_3  &new_behavior DOLLAR NUMBER_4  &new_behavior PERCENT N5  &new_behavior CARET NUMBER_6  &new_behavior AMPS N7  &new_behavior ASTRK N8  &new_behavior LEFT_PARENTHESIS N9  &new_behavior RIGHT_PARENTHESIS N0  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 0  &to 2  &none  &none  &none  &none
-            >;
-        };
-
         // レイヤー2：完全に空っぽ（&none）の部屋
-
-        empty_layer2 {
-            display-name = "game";
-            bindings = <
-&none  &none  &kp W  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp A  &kp S  &kp D  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 0  &mkp LCLK  &none  &none  &none  &none
-            >;
-        };
-
         // レイヤー3：完全に空っぽ（&none）の部屋
-
-        empty_layer3 {
-            display-name = "L3";
-            bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-            >;
-        };
-
         // レイヤー4：完全に空っぽ（&none）の部屋
 
-        empty_layer4 {
-            display-name = "L4";
+        base {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&trans  &new_behavior LC(Q) Q  &new_behavior LC(W) W  &new_behavior LC(E) E  &new_behavior LC(R) R  &new_behavior LC(T) T  &new_behavior NUMBER_1 Y  &new_behavior NUMBER_2 U  &new_behavior NUMBER_3 I  &new_behavior NUMBER_4 O  &new_behavior N5 P  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &new_behavior NUMBER_6 H  &new_behavior N7 J  &new_behavior N8 K  &new_behavior N9 L  &new_behavior N0 MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
