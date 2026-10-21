@@ -159,11 +159,11 @@ scroller {
         };
     };
 };
-
 / {
     behaviors {
         mouse_back: mouse_back {
             compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
             #behavior-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
