@@ -46,13 +46,13 @@
 
         base {
             bindings = <
-&trans  &behavior LC(Q) Q  &behavior LC(W) W  &behavior ESCAPE E  &behavior LC(R) R  &behavior LC(T) T  &behavior NUMBER_1 Y  &behavior NUMBER_2 U  &behavior NUMBER_3 I  &behavior NUMBER_4 O  &behavior N5 P  &trans  &trans  &behavior LC(A) A  &behavior LC(S) S  &behavior LS(F11) D  &behavior LC(F) F  &behavior LC(G) G  &behavior NUMBER_6 H  &behavior N7 J  &behavior N8 K  &behavior N9 L  &behavior N0 MINUS  &trans  &trans  &behavior LC(Z) Z  &behavior LC(X) X  &behavior LC(C) C  &behavior LC(V) V  &behavior LC(B) B  &behavior LC(N) N  &behavior F2 M  &mouseback MB4 COMMA  &mouseback MB5 PERIOD  &behavior QUESTION SLASH  &trans  &to 1  &behavior LC(SPACE) LEFT_GUI  &behavior LEFT_CONTROL LEFT_ALT  &behavior DELETE BACKSPACE  &behavior PRINTSCREEN RET  &altshift LEFT_SHIFT LG(SPACE)
+&trans  &behavior LC(Q) Q  &behavior LC(W) W  &behavior ESCAPE E  &behavior LC(R) R  &behavior LC(T) T  &behavior NUMBER_1 Y  &behavior NUMBER_2 U  &behavior NUMBER_3 I  &behavior NUMBER_4 O  &behavior N5 P  &trans  &trans  &behavior LC(A) A  &behavior LC(S) S  &behavior LS(F11) D  &behavior LC(F) F  &behavior LC(G) G  &behavior NUMBER_6 H  &behavior N7 J  &behavior N8 K  &behavior N9 L  &behavior N0 MINUS  &trans  &trans  &behavior LC(Z) Z  &behavior LC(X) X  &behavior LC(C) C  &behavior LC(V) V  &behavior LC(B) B  &behavior LC(N) N  &behavior F2 M  &mouseback MB4 COMMA  &mouseback MB5 PERIOD  &behavior QUESTION SLASH  &trans  &to 1  &behavior LC(SPACE) LEFT_GUI  &behavior LEFT_CONTROL LEFT_ALT  &behavior DELETE BACKSPACE  &behavior PRINTSCREEN RET  &altshift LEFT_SHIFT SPACE
             >;
         };
 
         Yaji {
             bindings = <
-&trans  &trans  &trans  &behavior PAGE_UP UP_ARROW  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &trans  &behavior HOME LEFT  &behavior PAGE_DOWN DOWN  &behavior END RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &kp LEFT_GUI  &kp LEFT_CONTROL  &behavior DELETE BACKSPACE  &behavior C_MENU ENTER  &trans
+&trans  &trans  &trans  &behavior PAGE_UP UP_ARROW  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &trans  &behavior HOME LEFT  &behavior PAGE_DOWN DOWN  &behavior END RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &kp LEFT_GUI  &kp LEFT_CONTROL  &behavior DELETE BACKSPACE  &behavior C_MENU ENTER  &kp LEFT_SHIFT
             >;
         };
 
