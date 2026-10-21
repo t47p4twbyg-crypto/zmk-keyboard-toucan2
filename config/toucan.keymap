@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     behaviors {
@@ -11,6 +12,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             flavor = "tap-preferred";
+        };
+
+        mouseback: mouseback {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOUSEBACK";
+            bindings = <&mkp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
         };
     };
 
@@ -25,7 +35,7 @@
 
         base {
             bindings = <
-&trans  &new_behavior LC(Q) Q  &new_behavior LC(W) W  &new_behavior ESCAPE E  &new_behavior LC(R) R  &new_behavior LC(T) T  &new_behavior NUMBER_1 Y  &new_behavior NUMBER_2 U  &new_behavior NUMBER_3 I  &new_behavior NUMBER_4 O  &new_behavior N5 P  &trans  &trans  &new_behavior LC(A) A  &new_behavior LC(S) S  &new_behavior LS(F11) D  &new_behavior LC(F) F  &new_behavior LC(G) G  &new_behavior NUMBER_6 H  &new_behavior N7 J  &new_behavior N8 K  &new_behavior N9 L  &new_behavior N0 MINUS  &trans  &trans  &new_behavior LC(Z) Z  &new_behavior LC(X) X  &new_behavior LC(C) C  &new_behavior LC(V) V  &new_behavior LC(B) B  &new_behavior LC(N) N  &new_behavior C_MENU M  &trans  &trans  &new_behavior QUESTION SLASH  &trans  &trans  &trans  &trans  &trans  &new_behavior ENTER SPACE  &trans
+&trans  &mouseback LC(Q) Q  &mouseback LC(W) W  &mouseback ESCAPE E  &mouseback LC(R) R  &mouseback LC(T) T  &mouseback NUMBER_1 Y  &mouseback NUMBER_2 U  &mouseback NUMBER_3 I  &mouseback NUMBER_4 O  &mouseback N5 P  &trans  &trans  &mouseback LC(A) A  &mouseback LC(S) S  &mouseback LS(F11) D  &mouseback LC(F) F  &mouseback LC(G) G  &mouseback NUMBER_6 H  &mouseback N7 J  &mouseback N8 K  &mouseback N9 L  &mouseback N0 MINUS  &trans  &trans  &mouseback LC(Z) Z  &mouseback LC(X) X  &mouseback LC(C) C  &mouseback LC(V) V  &mouseback LC(B) B  &mouseback LC(N) N  &mouseback C_MENU M  &mouseback MB4 COMMA  &mouseback MB5 PERIOD  &mouseback QUESTION SLASH  &trans  &trans  &trans  &trans  &trans  &mouseback ENTER SPACE  &trans
             >;
         };
 
