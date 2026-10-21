@@ -46,7 +46,7 @@
 
         base {
             bindings = <
-&trans  &behavior LC(Q) Q  &behavior LC(W) W  &behavior ESCAPE E  &behavior LC(R) R  &behavior LC(T) T  &behavior NUMBER_1 Y  &behavior NUMBER_2 U  &behavior NUMBER_3 I  &behavior NUMBER_4 O  &behavior N5 P  &trans  &trans  &behavior LC(A) A  &behavior LC(S) S  &behavior LS(F11) D  &behavior LC(F) F  &behavior LC(G) G  &behavior NUMBER_6 H  &behavior N7 J  &behavior N8 K  &behavior N9 L  &behavior N0 MINUS  &trans  &trans  &behavior LC(Z) Z  &behavior LC(X) X  &behavior LC(C) C  &behavior LC(V) V  &behavior LC(B) B  &behavior LC(N) N  &kp M  &mouseback MB4 COMMA  &mouseback MB5 PERIOD  &behavior QUESTION SLASH  &trans  &to 1  &behavior LC(SPACE) LEFT_GUI  &behavior LEFT_SHIFT LEFT_ALT  &kp BACKSPACE  &behavior LC(ENTER) ENTER  &behavior PRINTSCREEN SPACE
+&trans  &behavior LC(Q) Q  &behavior LC(W) W  &behavior ESCAPE E  &behavior LC(R) R  &behavior LC(T) T  &behavior NUMBER_1 Y  &behavior NUMBER_2 U  &behavior NUMBER_3 I  &behavior NUMBER_4 O  &behavior N5 P  &trans  &trans  &behavior LC(A) A  &behavior LC(S) S  &behavior LS(F11) D  &behavior LC(F) F  &behavior LC(G) G  &behavior NUMBER_6 H  &behavior N7 J  &behavior N8 K  &behavior N9 L  &behavior N0 MINUS  &trans  &trans  &behavior LC(Z) Z  &behavior LC(X) X  &behavior LC(C) C  &behavior LC(V) V  &behavior LC(B) B  &behavior LC(N) N  &behavior LG(TAB) M  &mouseback MB4 COMMA  &mouseback MB5 PERIOD  &behavior QUESTION SLASH  &trans  &to 1  &behavior LEFT_CONTROL LEFT_GUI  &behavior LEFT_SHIFT LEFT_ALT  &kp BACKSPACE  &behavior ENTER LA(ENTER)  &behavior PRINTSCREEN SPACE
             >;
         };
 
