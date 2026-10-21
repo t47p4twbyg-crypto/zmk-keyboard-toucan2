@@ -52,7 +52,7 @@
 
         Yaji {
             bindings = <
-&trans  &trans  &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &trans  &bt BT_SEL 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &behavior HOME LEFT  &kp DOWN  &behavior END RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &kp LEFT_GUI  &kp LEFT_CONTROL  &behavior DELETE BACKSPACE  &behavior K_CONTEXT_MENU ENTER  &kp LEFT_SHIFT
+&trans  &trans  &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp TAB  &bt BT_SEL 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &behavior HOME LEFT  &kp DOWN  &behavior END RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &kp LEFT_GUI  &behavior LEFT_ALT LEFT_CONTROL  &behavior DELETE BACKSPACE  &behavior K_CONTEXT_MENU ENTER  &kp LEFT_SHIFT
             >;
         };
 
