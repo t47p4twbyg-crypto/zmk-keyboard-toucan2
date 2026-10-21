@@ -35,7 +35,7 @@
 
         base {
             bindings = <
-&trans  &mouseback LC(Q) Q  &mouseback LC(W) W  &mouseback ESCAPE E  &mouseback LC(R) R  &mouseback LC(T) T  &mouseback NUMBER_1 Y  &mouseback NUMBER_2 U  &mouseback NUMBER_3 I  &mouseback NUMBER_4 O  &mouseback N5 P  &trans  &trans  &mouseback LC(A) A  &mouseback LC(S) S  &mouseback LS(F11) D  &mouseback LC(F) F  &mouseback LC(G) G  &mouseback NUMBER_6 H  &mouseback N7 J  &mouseback N8 K  &mouseback N9 L  &mouseback N0 MINUS  &trans  &trans  &mouseback LC(Z) Z  &mouseback LC(X) X  &mouseback LC(C) C  &mouseback LC(V) V  &mouseback LC(B) B  &mouseback LC(N) N  &mouseback C_MENU M  &mouseback MB4 COMMA  &mouseback MB5 PERIOD  &mouseback QUESTION SLASH  &trans  &trans  &trans  &trans  &trans  &mouseback ENTER SPACE  &trans
+&trans  &new_behavior LC(Q) Q  &new_behavior LC(W) W  &new_behavior ESCAPE E  &new_behavior LC(R) R  &new_behavior LC(T) T  &new_behavior NUMBER_1 Y  &new_behavior NUMBER_2 U  &mouseback NUMBER_3 I  &mouseback NUMBER_4 O  &mouseback N5 P  &trans  &trans  &mouseback LC(A) A  &mouseback LC(S) S  &mouseback LS(F11) D  &mouseback LC(F) F  &mouseback LC(G) G  &mouseback NUMBER_6 H  &mouseback N7 J  &mouseback N8 K  &mouseback N9 L  &mouseback N0 MINUS  &trans  &trans  &mouseback LC(Z) Z  &mouseback LC(X) X  &mouseback LC(C) C  &mouseback LC(V) V  &mouseback LC(B) B  &mouseback LC(N) N  &mouseback C_MENU M  &mouseback MB4 COMMA  &mouseback MB5 PERIOD  &mouseback QUESTION SLASH  &trans  &trans  &trans  &trans  &trans  &mouseback ENTER SPACE  &trans
             >;
         };
 
