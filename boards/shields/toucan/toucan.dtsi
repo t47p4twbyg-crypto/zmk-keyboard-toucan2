@@ -160,15 +160,4 @@ scroller {
         };
     };
 };
-/ {
-    behaviors {
-        mouse_back: mouse_back {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <0>;
-            #behavior-cells = <0>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&kp INPUT_BTN_4>, <&kp COMMA>; 
-        };
-    };
-};
+
