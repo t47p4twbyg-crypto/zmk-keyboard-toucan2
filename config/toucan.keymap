@@ -25,7 +25,7 @@
 
         base {
             bindings = <
-&trans  &new_behavior LC(Q) Q  &new_behavior LC(W) W  &new_behavior LC(E) E  &new_behavior LC(R) R  &new_behavior LC(T) T  &new_behavior NUMBER_1 Y  &new_behavior NUMBER_2 U  &new_behavior NUMBER_3 I  &new_behavior NUMBER_4 O  &new_behavior N5 P  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &new_behavior NUMBER_6 H  &new_behavior N7 J  &new_behavior N8 K  &new_behavior N9 L  &new_behavior N0 MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &new_behavior LC(Q) Q  &new_behavior LC(W) W  &new_behavior ESCAPE E  &new_behavior LC(R) R  &new_behavior LC(T) T  &new_behavior NUMBER_1 Y  &new_behavior NUMBER_2 U  &new_behavior NUMBER_3 I  &new_behavior NUMBER_4 O  &new_behavior N5 P  &trans  &trans  &new_behavior LC(A) A  &new_behavior LC(S) S  &new_behavior LS(F11) D  &new_behavior LC(F) F  &trans  &new_behavior NUMBER_6 H  &new_behavior N7 J  &new_behavior N8 K  &new_behavior N9 L  &new_behavior N0 MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &new_behavior LC(B) B  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &new_behavior ENTER SPACE  &trans
             >;
         };
 
