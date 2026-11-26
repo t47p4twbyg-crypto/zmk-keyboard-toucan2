@@ -1,6 +1,6 @@
 include:
   - board: seeeduino_xiao_ble
-    shield: toucan_left nice_view_adapter nice_view_gem
+    shield: toucan_left nice_view_adapter
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
   - board: seeeduino_xiao_ble
