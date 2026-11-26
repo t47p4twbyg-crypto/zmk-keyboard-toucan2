@@ -1,14 +1,14 @@
 include:
-  - board: xiao_ble/nrf52840/zmk
+  - board: seeeduino_xiao_ble
     shield: toucan_left nice_view_adapter nice_view_gem
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
-  - board: xiao_ble/nrf52840/zmk
+  - board: seeeduino_xiao_ble
     shield: toucan_right nice_view_adapter nice_view_gem
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
-  - board: xiao_ble/nrf52840/zmk
+  - board: seeeduino_xiao_ble
     shield: toucan_dongle prospector_adapter
 
-  - board: xiao_ble/nrf52840/zmk
+  - board: seeeduino_xiao_ble
     shield: settings_reset
