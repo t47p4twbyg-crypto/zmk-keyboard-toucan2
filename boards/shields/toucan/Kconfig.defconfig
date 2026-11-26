@@ -1,33 +1,24 @@
-if SHIELD_TOUCAN_LEFT
+if SHIELD_TOUCAN_DONGLE
 
+# キーボード名は最大16文字以内
 config ZMK_KEYBOARD_NAME
-    default "Toucan"
+    default "Toucan2"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
-    default y
-
-config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
-    default y
-
-endif
-
-
-
-if SHIELD_TOUCAN_LEFT || SHIELD_TOUCAN_RIGHT
-
-config SPI
     default y
 
 config ZMK_SPLIT
     default y
 
-config ZMK_POINTING
-    default y
+# 左右2パーツなので 2
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
 
-config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
-    default 40
+# ペリフェラル数 + BTプロファイル数（例: 2 + 5 = 7）
+config BT_MAX_CONN
+    default 7
+
+config BT_MAX_PAIRED
+    default 7
 
 endif
